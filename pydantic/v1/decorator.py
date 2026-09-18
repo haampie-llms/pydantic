@@ -1,7 +1,7 @@
 from functools import wraps
 from typing import TYPE_CHECKING, Any, Callable, Dict, List, Mapping, Optional, Tuple, Type, TypeVar, Union, overload
 
-from pydantic.v1 import validator
+from pydantic.v1.class_validators import validator
 from pydantic.v1.config import Extra
 from pydantic.v1.errors import ConfigError
 from pydantic.v1.main import BaseModel, create_model
